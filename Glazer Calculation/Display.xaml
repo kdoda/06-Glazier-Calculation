@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="Glazer_Calculation.Display"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Glazer_Calculation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="400,75,0,0" Text="Date:" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="200"/>
+        <TextBlock HorizontalAlignment="Left" Margin="400,125,0,0" Text="Height:" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="200"/>
+        <TextBlock HorizontalAlignment="Left" Margin="400,175,0,0" Text="Width:" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="200"/>
+        <TextBlock HorizontalAlignment="Left" Margin="400,225,0,0" Text="Quantity:" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="200"/>
+        <TextBlock HorizontalAlignment="Left" Margin="400,275,0,0" Text="Color:" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="200"/>
+        <TextBlock HorizontalAlignment="Left" Margin="400,325,0,0" Text="Glass Area" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="200"/>
+        <TextBlock HorizontalAlignment="Left" Margin="400,375,0,0" Text="Wood Length" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="200"/>
+
+        <TextBlock x:Name="lblDate" HorizontalAlignment="Left" Margin="650,75,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="200"/>
+        <TextBlock x:Name="lblHeight" HorizontalAlignment="Left" Margin="650,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="200"/>
+        <TextBlock x:Name="lblWidth" HorizontalAlignment="Left" Margin="650,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="200"/>
+        <TextBlock x:Name="lblQuantity" HorizontalAlignment="Left" Margin="650,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="200"/>
+        <TextBlock x:Name="lblColor" HorizontalAlignment="Left" Margin="650,275,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="200"/>
+        <TextBlock x:Name="lblGlassArea" HorizontalAlignment="Left" Margin="650,325,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="200"/>
+        <TextBlock x:Name="lblWoodLength" HorizontalAlignment="Left" Margin="650,375,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="200"/>
+    </Grid>
+</Page>
